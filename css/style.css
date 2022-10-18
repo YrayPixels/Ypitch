@@ -1,0 +1,29 @@
+@import url('http://fonts.cdnfonts.com/css/raleway-5');
+
+* {
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.logo {
+    height: 70px;
+}
+
+nav li :hover {
+    border-left: 1px solid #1FAAF0;
+}
+
+/* main {
+    background-image: url('/images/codebg.png');
+    background-size: cover;
+    background-attachment: scroll;
+} */
+.leadingtext {
+    font-weight: 900;
+
+}
+
+.leadingtext span {
+    background-image: url('/images/8865999_25896-removebg-preview.png');
+    background-size: cover;
+}
