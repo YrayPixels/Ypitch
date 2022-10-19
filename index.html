@@ -28,7 +28,7 @@
                         <a class="nav-link" aria-current="page" href="#">Register</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="#Ypitch">About</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Lookbook</a>
@@ -77,7 +77,7 @@
         </div>
 
         <!-- About -->
-        <div class="container-fluid whyYpitch py-5">
+        <div id="Ypitch" class="container-fluid whyYpitch py-5">
             <h3 class="text-center fw-bold display-4 text-newcol5">Why Ypitch</h3>
             <hr>
 
@@ -136,7 +136,7 @@
 
         <div id="skillStack" class="skillsClass py-5 ">
             <div class="text-info stackHeader p-3 my-3 text-center">
-                <h4 class="display-3 fw-bold">Select your Favourite Stack.</h4>
+                <h4 class="display-3 fw-bold">Select your favourite stack.</h4>
                 <p class="">Don't know where to start click this link to take our test to find your niche
                     <span><a class="btn btn-newcol1" href="">Click
                             Me</a></span>
@@ -167,10 +167,25 @@
                         <p class="card-text"></p>
                         <button id="frontend" class="btn btn-outline-newcol1">view course synopsis</button>
                     </div>
-                    <div id="frontenddiv" style="display:none;" class=" bg-white text-center p-4">
+                    <div id="frontenddiv" style="display:none;" class=" bg-white text-start p-4">
 
-                        <h4 class="display-6">Front-End Course Coming Soon!!!</h4>
-
+                        <ul>
+                            <li>
+                                Introduction to Front-End Development
+                            </li>
+                            <li>Version Control</li>
+                            <li>HTML in Depth/li>
+                            <li>CSS in Depth</li>
+                            <li>Introduction to JavaScript as a programming language</li>
+                            <li>Introduction to CSS frameworks</li>
+                            <li>Introduction to JavaScript Libraries and frameworks</li>
+                            <li>Introduction to React</li>
+                            <li>Advanced React</li>
+                            <li>Principles of UI/UX design</li>
+                            <li>Capstone Project</li>
+                            <li>Data Structures and Algorithms JavaScript`</li>
+                            <li>Coding Interview Preparations</li>
+                        </ul>
                     </div>
                 </div>
                 <div class="card skillCard border-0 shadow" style="width: 18rem;">
@@ -181,14 +196,55 @@
                         <p class="card-text"></p>
                         <button id="backend" class="btn btn-outline-newcol1">view course synopsis</button>
                     </div>
-                    <div id="backenddiv" style="display:none ;" class="bg-white text-center p-4">
+                    <div id="backenddiv" style="display:none ;" class="bg-white text-start p-4">
 
-                        <h4 class="display-6">Back-End Course Coming Soon!!!</h4>
+                        <ul>
+                            <li>Introduction to Back-End Development</li>
+                            <li>Programming in PHP/li>
+                            <li>Laravel Framework</li>
+                            <li>Version Control</li>
+                            <li>Database for Back-End Development</li>
+                            <li>Programming in Python</li>
+                            <li>Django Web Framework</li>
+                            <li>APIs</li>
+                            <li>The Full Stack</li>
+                            <li>Cloud Computing</li>
+                            <li>Capstone Project</li>
+                            <li>Data Structures and Algorithms PHP and Python</li>
+                            <li>Interview Preparations</li>
+                        </ul>
 
                     </div>
                 </div>
             </div>
 
+        </div>
+
+        <div class="container-fluid">
+            <div class="card border-0 shadow w-50 my-4 mx-auto p-3">
+                <h4>Sign Up</h4>
+                <form>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Retype-Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+
+            </div>
         </div>
 
 

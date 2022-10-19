@@ -25,13 +25,14 @@ nav li :hover {
 .leadingtext span {
     background-image: url('/images/8865999_25896-removebg-preview.png');
     background-size: cover;
-    background-attachment: fixed;
 }
 
 .skillsClass {
 
     background-image: url('/images/codebg.png');
     background-size: cover;
+    background-attachment: fixed;
+
 }
 
 .stackHeader {
