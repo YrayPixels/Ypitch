@@ -7,6 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/main.min.css">
     <link rel="stylesheet" href="/css/style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="/js/index.js"></script>
     <title>Ypitch</title>
 </head>
 
@@ -139,7 +142,7 @@
                             Me</a></span>
                 </p>
             </div>
-            <div class="row g-2 py-5 justify-content-around align-items-stretch">
+            <div class="row g-2 py-5 justify-content-around align-items-start">
 
 
                 <div class="card skillCard border-0 shadow" style="width: 18rem;">
@@ -148,7 +151,12 @@
                     <div class="card-body">
                         <h5 class="card-title">UI/UX</h5>
                         <p class="card-text"></p>
-                        <a href="#" class="btn btn-outline-newcol1">Get Started</a>
+                        <button id="uiux" class="btn btn-outline-newcol1">view course synopsis</button>
+                    </div>
+                    <div id="uidiv" style="display:none ;" class="bg-white text-center p-4">
+
+                        <h4 class="display-6">UI/UX Course Coming Soon!!!</h4>
+
                     </div>
                 </div>
                 <div class="card skillCard border-0 shadow" style="width: 18rem;">
@@ -157,7 +165,12 @@
                     <div class="card-body">
                         <h5 class="card-title">Front-End Stack</h5>
                         <p class="card-text"></p>
-                        <a href="#" class="btn btn-outline-newcol1">Get Started</a>
+                        <button id="frontend" class="btn btn-outline-newcol1">view course synopsis</button>
+                    </div>
+                    <div id="frontenddiv" style="display:none;" class=" bg-white text-center p-4">
+
+                        <h4 class="display-6">Front-End Course Coming Soon!!!</h4>
+
                     </div>
                 </div>
                 <div class="card skillCard border-0 shadow" style="width: 18rem;">
@@ -166,16 +179,19 @@
                     <div class="card-body">
                         <h5 class="card-title">Back-End Stack</h5>
                         <p class="card-text"></p>
-                        <a href="#" class="btn btn-outline-newcol1">Get Started</a>
+                        <button id="backend" class="btn btn-outline-newcol1">view course synopsis</button>
+                    </div>
+                    <div id="backenddiv" style="display:none ;" class="bg-white text-center p-4">
+
+                        <h4 class="display-6">Back-End Course Coming Soon!!!</h4>
+
                     </div>
                 </div>
             </div>
-        </div>
-
-        <!-- Apply for your stack -->
-        <div>
 
         </div>
+
+
 
 
 
@@ -185,7 +201,6 @@
     <footer>
 
     </footer>
-
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
