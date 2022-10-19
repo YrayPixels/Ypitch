@@ -9,21 +9,31 @@
     height: 70px;
 }
 
+
+
+
 nav li :hover {
     border-left: 1px solid #1FAAF0;
+    padding-left: 5px;
+    color: #D1B538;
 }
 
-/* main {
-    background-image: url('/images/codebg.png');
-    background-size: cover;
-    background-attachment: scroll;
-} */
 .leadingtext {
     font-weight: 900;
-
 }
 
 .leadingtext span {
     background-image: url('/images/8865999_25896-removebg-preview.png');
     background-size: cover;
+}
+
+.skillCard {
+    position: relative;
+    /* top: 60; */
+
+}
+
+.skillCard img:hover {
+    transition: transform 0.8s;
+    transform: scale(1.1);
 }

@@ -20,9 +20,9 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                <ul class="navbar-nav m-auto mb-2 mb-lg-0 fw-bold">
+                <ul class="navbar-nav mb-2 m-auto mb-lg-0 fw-bold">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Register</a>
+                        <a class="nav-link" aria-current="page" href="#">Register</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">About</a>
@@ -44,11 +44,11 @@
     </nav>
     <main>
         <!-- landing -->
-        <div class="container-fluid">
+        <div class="container-fluid py-5">
             <div class="row justify-content-center align-items-center">
                 <div class="col-12 col-md-6 text-sm-center text-md-start">
                     <div class="">
-                        <p>World Class Learning Experience</p>
+                        <p class="bg-newcol4 p-2 m-auto text-info">World Class Learning Experience</p>
                         <h1 class="leadingtext display-1 text-newcol1">Choose your tech stack and <span
                                 class="text-newcol4 gopro">Go
                                 PRO!!</span></h1>
@@ -59,7 +59,7 @@
                         </p>
                     </div>
                     <div>
-                        <a class="btn btn-newcol1">
+                        <a class="btn btn-newcol4 text-info">
                             Get Started
                         </a>
 
@@ -73,10 +73,35 @@
 
         </div>
 
-        <div>
-            <div>
-                <h4>Total Skill Stack</h4>
+        <div class="skillsClass d-flex justify-content-around align-items-stretch">
+            <div class="card skillCard border-0 shadow" style="width: 18rem;">
+                <img src="/images/uiux.jpg" class="card-img-top img-fluid" alt="...">
+                <hr>
+                <div class="card-body">
+                    <h5 class="card-title">UI/UX</h5>
+                    <p class="card-text"></p>
+                    <a href="#" class="btn btn-outline-newcol1">Get Started</a>
+                </div>
             </div>
+            <div class="card skillCard border-0 shadow" style="width: 18rem;">
+                <img src="/images/frontendd.png" class="card-img-top" alt="...">
+                <hr>
+                <div class="card-body">
+                    <h5 class="card-title">Front-End Stack</h5>
+                    <p class="card-text"></p>
+                    <a href="#" class="btn btn-outline-newcol1">Get Started</a>
+                </div>
+            </div>
+            <div class="card skillCard border-0 shadow" style="width: 18rem;">
+                <img src="/images/backend.jpg" class="card-img-top" alt="...">
+                <hr>
+                <div class="card-body">
+                    <h5 class="card-title">Back-End Stack</h5>
+                    <p class="card-text"></p>
+                    <a href="#" class="btn btn-outline-newcol1">Get Started</a>
+                </div>
+            </div>
+
         </div>
 
     </main>
